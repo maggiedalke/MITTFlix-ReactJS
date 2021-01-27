@@ -1,0 +1,50 @@
+{
+  "name": "netfix",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "nan": "^2.14.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "db": "json-server --watch db.json -p 3001",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  },
+  "description": "This is your final project from SD260 Intro to React. Your grade on this project will make-up 60% of your final grade in this course.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maggiedalke/React_final_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maggiedalke/React_final_project/issues"
+  },
+  "homepage": "https://github.com/maggiedalke/React_final_project#readme"
+}
