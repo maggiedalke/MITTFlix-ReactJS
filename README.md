@@ -1,19 +1,10 @@
-To start this app, you will need to run 2 separate commands.
+# MITTFlix 
 
-- `npm run db`
+This is a movie search engine where you can enter in names or genres of movies and the appropriate results will appear. 
 
-This will start the database so your app actually has movies to query. The database runs on port 3001 just in case you need that info.
-
-- `npm start`
-
-This starts up the actual app in the development mode.
-Open http://localhost:3000 to view it in the browser.
-
-The app is provided to you in a static state, but it needs to be changed to a fully dynamic React app. It has variety of functionality demonstrated in the provided video and outlined below.
+## Development Process
 
 ### Main Page
-
-Located at /, this page has the following functionality:
 
 - movies are grouped by genre.
 - genre headings only show up if there are movies that belong to that genre.
@@ -40,8 +31,6 @@ Located at /my-list, this page has the following functionality:
 - Users can see all the movies that have been added to their list
 - Movies are not sorted by genres or any other specification
 
-#### This feature is not demonstrated in the video
-
 - Users can choose to view and interact with their list in a table view that includes the title, rating, and genres of each movie. It should be possible to remove items from the list in this view as well.
 - Add appropriate navigation and styles such that the list view fits well with the aesthetic of the rest of the app.
 
@@ -57,8 +46,6 @@ Located on all pages, Adding to My List has the following functionality:
 
 ## MovieAPI
 
-Provided to you, there is a MovieAPI, in a MovieAPI.js file, which is already imported for you by default in App.js.
-
 The MovieAPI has the following methods available:
 
 - `MovieAPI.getAll()`: This will return to you all the movies in the database.
@@ -67,16 +54,3 @@ The MovieAPI has the following methods available:
 - `MovieAPI.removeFromList(movie)`: Accepts 1 parameter, a movie object. It will update a movies my_list attribute to false and save it to the database for you.
 
 All API endpoints return promises, so you can freely chain a `.then()` on to them. They already provide you the results in a JSON format, so you'll simply have to accept a parameter into your `then()`.
-
-Here are some examples of smaller problems that you could look at solving, in an order that makes a lot of sense:
-
-- Retrieving Movies from the API and placing them into state
-- Displaying Movies from state
-- Adding movies to My List and saving them back to the API
-- Adding React Router to Display My List separately
-- Filtering Movies
-- Adding special info to filter based on the results
-- Breaking down the list of movies into Genres and displaying them accordingly
-
-- Ask questions if you are uncertain or something is unclear to you.
-- Start early, take breaks, celebrate small wins.
