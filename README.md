@@ -54,3 +54,11 @@ The MovieAPI has the following methods available:
 - `MovieAPI.removeFromList(movie)`: Accepts 1 parameter, a movie object. It will update a movies my_list attribute to false and save it to the database for you.
 
 All API endpoints return promises, so you can freely chain a `.then()` on to them. They already provide you the results in a JSON format, so you'll simply have to accept a parameter into your `then()`.
+
+## How to use
+The app will launch and display a bunch of different movies organised by genre. 
+To find different movies, the user can use the **search bar** at the top.
+If a user enjoys a film, they can click the heart button located on the film's image. This will **add** it to the page *"My List"*.
+There is a link to the *"My List"* page, where the user can view all of their favourite movies.
+By clicking the heart again, the user can **remove** the film from their list. 
+
